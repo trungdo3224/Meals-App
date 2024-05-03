@@ -9,7 +9,6 @@ import { Ionicons } from '@expo/vector-icons';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
 import MealDetailScreen from './screens/MealDetailScreen';
 import FavoritesScreen from './screens/FavoritesScreen';
-// import FavoritesContextProvider from './store/context/favoriteContext';
 import { Provider } from 'react-redux';
 import { store } from './store/redux/store';
 

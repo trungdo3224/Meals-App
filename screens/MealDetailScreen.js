@@ -3,9 +3,8 @@ import { MEALS } from '../data/dummy-data';
 import MealDetails from '../components/MealDetails';
 import Subtitle from '../components/MealDetail/Subtitle';
 import List from '../components/MealDetail/List';
-import { useContext, useLayoutEffect, useState } from 'react';
+import { useLayoutEffect } from 'react';
 import IconButton from '../components/IconButton';
-import { FavoritesContext } from '../store/context/favoriteContext';
 import { useDispatch, useSelector } from 'react-redux';
 import { addFavorite, removeFavorite } from '../store/redux/favoritesSlice';
 
